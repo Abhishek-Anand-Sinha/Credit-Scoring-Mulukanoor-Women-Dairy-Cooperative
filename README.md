@@ -72,6 +72,7 @@ Holding all other variables constant (e.g., Income Score = 60), the algorithm pr
 
 ### 📂 File Structure
 * `MWCD_Original_Data.csv`: The raw field data (N=35).
+* `mwcd_synthetic_data_generator_py.py`: The Python script for generating 1000 response using Bootstrap Method.
 * `MWCD_Synthetic_Data_1000.csv`: The bootstrapped dataset used for modeling.
 * `Credit_Score_Algorithm.py`: The Python script containing the scoring logic.
 * `MWCD_Scored_Data_Final.csv`: The final output with calculated Credit Scores.
