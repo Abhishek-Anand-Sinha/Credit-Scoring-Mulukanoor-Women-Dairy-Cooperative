@@ -72,8 +72,8 @@ I mathematically differentiated borrowers based on their "Primary Spending" vari
 #### **Impact Analysis (The 17.5 Point Delta)**
 Holding all other variables constant (e.g., Income Score = 60), the algorithm produces a significant divergence:
 
-1.  **Woman A (Survival):** $(60 \times 0.35) + (30 \times 0.25) + \dots = \text{Lower Score}$
-2.  **Woman B (Investor):** $(60 \times 0.35) + (100 \times 0.25) + \dots = \text{Higher Score}$
+1.  **Woman A (Survival):** $(60 x 0.35) + (30 x 0.25) + ... = {Lower Score}$
+2.  **Woman B (Investor):** $(60 x 0.35) + (100 x 0.25) + ... = {Higher Score}$
 
 **The Result:** The "Investor" behavior contributes a **net lift of +17.5 points** to the final credit score.
 > *Impact:* This mathematical adjustment is sufficient to move a borrower from **Tier 2 (Standard - 14% Interest)** to **Tier 1 (Prime - 10% Interest)**, effectively rewarding financial discipline that traditional CIBIL scores miss.
