@@ -8,6 +8,16 @@
 
 ---
 
+### 📂 File Structure
+* `MWCD_Original_Data.csv`: The raw field data (N=35).
+* `mwcd_synthetic_data_generator_py.py`: The Python script for generating 1000 response using Bootstrap Method.
+* `MWCD_Synthetic_Data_1000.csv`: The bootstrapped dataset used for modeling.
+* `Credit_Score_Algorithm.py`: The Python script containing the scoring logic.
+* `MWCD_Scored_Data_Final.csv`: The final output with calculated Credit Scores.
+* `Credit_Score_Distribution_Barchart.png`: The Credit Score Distribution Barchart with lending cut-off (55).
+
+---
+
 ### 🛠️ The Tech Stack
 * **Language:** Python 3.10
 * **Libraries:** Pandas (Data Engineering), Seaborn (Visualization), NumPy (Simulation)
@@ -67,15 +77,6 @@ Holding all other variables constant (e.g., Income Score = 60), the algorithm pr
 
 **The Result:** The "Investor" behavior contributes a **net lift of +17.5 points** to the final credit score.
 > *Impact:* This mathematical adjustment is sufficient to move a borrower from **Tier 2 (Standard - 14% Interest)** to **Tier 1 (Prime - 10% Interest)**, effectively rewarding financial discipline that traditional CIBIL scores miss.
-
----
-
-### 📂 File Structure
-* `MWCD_Original_Data.csv`: The raw field data (N=35).
-* `mwcd_synthetic_data_generator_py.py`: The Python script for generating 1000 response using Bootstrap Method.
-* `MWCD_Synthetic_Data_1000.csv`: The bootstrapped dataset used for modeling.
-* `Credit_Score_Algorithm.py`: The Python script containing the scoring logic.
-* `MWCD_Scored_Data_Final.csv`: The final output with calculated Credit Scores.
 
 ---
 *Created by Abhishek Anand Sinha | TISS Hyderabad | Public Policy & Governance*
